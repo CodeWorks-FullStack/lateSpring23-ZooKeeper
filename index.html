@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <title>Zoo Keepers</title>
+</head>
+
+<body>
+
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <h1>Zoo Keeper</h1>
+      </div>
+      <div class="col-4 offset-2">
+        <p class="fs-5 p-0">Money: <span id="money">$0</span></p>
+        <p class="fs-5 p-0">Income: <span id="income">$0</span></p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class="row justify-content-center mt-5">
+
+      <!-- SECTION TONY -->
+      <div id="Tony" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="up" scrollamount="25"  class="">
+          <marquee behavior="alternate" direction="left">
+          <h1 onclick="feedAnimal('Tony')" class="animal">🐅</h1>
+          </marquee>
+        </marquee>
+        <h5>Tony | 🥰 | Hunger: 100%</h5>
+      </div>
+
+      <!-- SECTION Harambe -->
+      <div id="Harambe" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="up" scrollamount="7"  class="text-light">
+          <marquee behavior="alternate" direction="left">
+          <h1 onclick="feedAnimal('Harambe')" class="animal">🦍</h1>
+          </marquee>
+        </marquee>
+        <h5>Harambe | 🥰 | Hunger: 100%</h5>
+      </div>
+
+      <!-- SECTION Ysera -->
+      <div id="Ysera" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="down" scrollamount="10"  class="text-light">
+          <marquee behavior="alternate" direction="right">
+          <h1 onclick="feedAnimal('Ysera')" class="animal">🐉</h1>
+          </marquee>
+        </marquee>
+        <h5>Ysera | 🥰 | Hunger: 100%</h5>
+      </div>
+
+      <!-- SECTION Thux -->
+      <div id="Thux" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="up" scrollamount="5"  class="text-light">
+          <marquee behavior="alternate" direction="left">
+          <h1 onclick="feedAnimal('Thux')" class="animal">🐧</h1>
+          </marquee>
+        </marquee>
+        <h5>Thux | 🥰 | Hunger: 100%</h5>
+      </div>
+
+      <!-- SECTION Roth -->
+      <div id="Roth" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="down" scrollamount="1"  class="text-light">
+          <marquee behavior="alternate" direction="right">
+          <h1 onclick="feedAnimal('Roth')" class="animal">🦥</h1>
+          </marquee>
+        </marquee>
+        <h5>Roth | 🥰 | Hunger: 100%</h5>
+      </div>
+      
+
+      <!-- SECTION Ned -->
+      <div id="Ned" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="up" scrollamount="2"  class="text-light">
+          <marquee behavior="alternate" direction="left">
+          <h1 onclick="feedAnimal('Ned')" class="animal">🐙</h1>
+          </marquee>
+        </marquee>
+        <h5>Ned | 🥰 | Hunger: 100%</h5>
+      </div>
+
+      <!-- SECTION Kevin -->
+      <div id="Kevin" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="left" scrollamount="2"  class="text-light">
+          <marquee behavior="alternate" direction="left">
+          <h1 onclick="feedAnimal('Kevin')" class="animal">🦚</h1>
+          </marquee>
+        </marquee>
+        <h5>Kevin | 🥰 | Hunger: 100%</h5>
+      </div>
+
+      <!-- SECTION Rango -->
+      <div id="Rango" class="col-10 col-md-3 text-center">
+        <marquee behavior="alternate" direction="down" scrollamount="65"  class="text-light">
+          <marquee behavior="alternate" direction="right">
+          <h1 onclick="feedAnimal('Rango')" class="animal">🦎</h1>
+          </marquee>
+        </marquee>
+        <h5>Rango | 🥰 | Hunger: 100%</h5>
+      </div>
+
+    </div>
+  </main>
+
+
+  
+  <script src="app.js"></script>
+</body>
+
+</html>
