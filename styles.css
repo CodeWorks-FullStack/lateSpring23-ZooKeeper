@@ -1,0 +1,50 @@
+.test {
+  background-color: antiquewhite;
+  color: purple;
+}
+
+.zooPin {
+  height: 30dvh;
+  width: 100%;
+  background-image: url('https://thumbs.dreamstime.com/b/cute-green-meadow-grass-seamless-pattern-green-herbal-bushes-texture-moss-textile-backgrounds-wallpaper-covers-surface-96829036.jpg');
+  background-size: contain;
+  border: double black 10px;
+}
+
+.waterPin {
+  height: 30dvh;
+  width: 100%;
+  background-image: url('https://media.istockphoto.com/vectors/cartoon-seamless-shiny-blue-water-background-with-waves-vector-id521380772?k=6&m=521380772&s=170667a&w=0&h=93FiWpuuULkxom61SQxrbv3QCUw72Cq1sL2EppE9UU0=');
+  background-size: contain;
+  border: double black 10px;
+}
+
+.icePin {
+  height: 30dvh;
+  width: 100%;
+  background-image: url('https://media.istockphoto.com/vectors/ice-seamless-pattern-vector-id523442447?k=6&m=523442447&s=612x612&w=0&h=WibLEn2PDoRiglH5rysDcBHwE_rImMz9Wiho2c-6hQw=');
+  background-size: contain;
+  border: double black 10px;
+}
+
+.racePin {
+   height: 30dvh;
+  width: 100%;
+  background-image: url('https://lh3.googleusercontent.com/-XCUhBJaMq1g/Wh5cCPbZ8FI/AAAAAAAAAuo/m_qpKiRbdq43SrIK5MCsAA3SALlyRpO3ACHMYCw/s1600/2d-running-track-finifh-line.png');
+  background-size: cover;
+  border: double black 10px;
+}
+
+.animal {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: skyblue;
+}
