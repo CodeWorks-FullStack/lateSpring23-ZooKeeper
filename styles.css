@@ -1,50 +1,76 @@
 .test {
+  /* Applies a background color of antiquewhite */
   background-color: antiquewhite;
+  /* Sets the text color to purple */
   color: purple;
 }
 
 .zooPin {
-  height: 30dvh;
+  /* Sets the height to 30% of the viewport height */
+  height: 30vh;
+  /* Sets the width to 100% of the container */
   width: 100%;
+  /* Applies a background image using the provided URL */
   background-image: url('https://thumbs.dreamstime.com/b/cute-green-meadow-grass-seamless-pattern-green-herbal-bushes-texture-moss-textile-backgrounds-wallpaper-covers-surface-96829036.jpg');
+  /* Sets the background image size to contain within the element */
   background-size: contain;
+  /* Adds a double black border with a thickness of 10 pixels */
   border: double black 10px;
 }
 
 .waterPin {
-  height: 30dvh;
+  /* Sets the height to 30% of the viewport height */
+  height: 30vh;
+  /* Sets the width to 100% of the container */
   width: 100%;
+  /* Applies a background image using the provided URL */
   background-image: url('https://media.istockphoto.com/vectors/cartoon-seamless-shiny-blue-water-background-with-waves-vector-id521380772?k=6&m=521380772&s=170667a&w=0&h=93FiWpuuULkxom61SQxrbv3QCUw72Cq1sL2EppE9UU0=');
+  /* Sets the background image size to contain within the element */
   background-size: contain;
+  /* Adds a double black border with a thickness of 10 pixels */
   border: double black 10px;
 }
 
 .icePin {
-  height: 30dvh;
+  /* Sets the height to 30% of the viewport height */
+  height: 30vh;
+  /* Sets the width to 100% of the container */
   width: 100%;
+  /* Applies a background image using the provided URL */
   background-image: url('https://media.istockphoto.com/vectors/ice-seamless-pattern-vector-id523442447?k=6&m=523442447&s=612x612&w=0&h=WibLEn2PDoRiglH5rysDcBHwE_rImMz9Wiho2c-6hQw=');
+  /* Sets the background image size to contain within the element */
   background-size: contain;
+  /* Adds a double black border with a thickness of 10 pixels */
   border: double black 10px;
 }
 
 .racePin {
-   height: 30dvh;
+  /* Sets the height to 30% of the viewport height */
+  height: 30vh;
+  /* Sets the width to 100% of the container */
   width: 100%;
+  /* Applies a background image using the provided URL */
   background-image: url('https://lh3.googleusercontent.com/-XCUhBJaMq1g/Wh5cCPbZ8FI/AAAAAAAAAuo/m_qpKiRbdq43SrIK5MCsAA3SALlyRpO3ACHMYCw/s1600/2d-running-track-finifh-line.png');
+  /* Sets the background image size to cover the entire element */
   background-size: cover;
+  /* Adds a double black border with a thickness of 10 pixels */
   border: double black 10px;
 }
 
 .animal {
+  /* Sets the cursor to a pointer (hand) when hovering over the element */
   cursor: pointer;
+  /* Prevents the element's text from being selectable by the user */
   user-select: none;
-  -webkit-user-select: none;
+  -webkit-user-select: none; /* For Safari compatibility */
 }
 
 p {
+  /* Removes the default margin from paragraphs */
   margin: 0;
 }
 
 body {
+  /* Sets the background color of the body to skyblue */
   background-color: skyblue;
 }
