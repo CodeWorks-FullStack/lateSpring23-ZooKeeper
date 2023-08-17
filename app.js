@@ -5,12 +5,58 @@ const animals = [
     emoji: "🐅",
     hunger: 100
   },
+  {
+    name: "Harambe",
+     mood: "🥰",
+    emoji: "🦍",
+    hunger: 100
+  },
+  {
+    name: "Ysera",
+    mood: "🥰",
+    emoji: "🐉",
+    hunger: 100
+  },
+  {
+    name: "Thux",
+    mood: "🥰",
+    emoji: "🐧",
+    hunger: 100,
+    habitat: "ice"
+  },
+  {
+    name: "Roth",
+    mood: "🥰",
+    emoji: "🦥",
+    hunger: 100
+  },
+  {
+    name: "Ned",
+    mood: "🥰",
+    emoji: "🐙",
+    hunger: 100,
+    habitat: "water"
+  },
+  {
+    name: "Kevin",
+    mood: "🥰",
+    emoji: "🦚",
+    hunger: 100
+  },
+  {
+    name: "Rango",
+    mood: "🥰",
+    emoji: "🦎",
+    hunger: 100,
+    habitat: "track"
+  },
+]
   // Array of animal objects with their properties: name, mood, emoji, and hunger.
   // Each animal represents a specific animal in the zoo.
 
   // ...
 
-]
+
 
 let money = 0
 // Variable to keep track of the money in the zoo.
